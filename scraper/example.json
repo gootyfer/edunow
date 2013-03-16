@@ -1,0 +1,26 @@
+[
+	{
+		provider: 'edx',
+		course: 'CS169.2x Software as a Service',
+		task: 'Lecture 1: Advanced Rails',
+		type: 'lecture',
+		deadline: 'March 1 2013',
+		link: 'https://www.edx.org/courses/BerkeleyX/CS169.2x/2013_Spring/courseware/Week_1/Lecture_1/'
+	},
+	{
+		provider: 'edx',
+		course: 'CS169.2x Software as a Service',
+		task: 'Quiz 1',
+		type: 'assignment',
+		deadline: 'March 3 2013',
+		link: 'https://www.edx.org/courses/BerkeleyX/CS169.2x/2013_Spring/courseware/Week_1/Quiz_1/'
+	},
+	{
+		provider: 'edx',
+		course: 'CS169.2x Software as a Service',
+		task: 'Homework 1 part 1',
+		type: 'homework',
+		deadline: 'March 10 2013',
+		link: 'https://www.edx.org/courses/BerkeleyX/CS169.2x/2013_Spring/courseware/Week_2/Homework_1_1_sequential/'
+	}
+]

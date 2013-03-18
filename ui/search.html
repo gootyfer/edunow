@@ -1,0 +1,78 @@
+
+<!DOCTYPE HTML>
+<html lang="es-ES">
+<head>
+  <meta charset="UTF-8">
+  <title>Time</title>
+  <!-- Lungo - Dependencies -->
+  <script src="quojs/quo.js"></script>
+  <script src="lungo/lungo.js"></script>
+  <link rel="stylesheet" type="text/css" href="lungo/lungo.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="lungo/lungo.icon.brand.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="lungo/lungo.icon.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="lungo/theme.lungo.css" media="all" />
+</head>
+<body class="app">
+    <section id="main" data-transition="">
+        <header data-title="EduNow - Search"></header>
+        <footer>
+            <nav>
+                <a href="deadline.html" data-icon="calendar"></a>
+                <a href="courses.html" data-icon="book"></a>
+                <a href="subjects.html" data-icon="folder"></a>
+                <a href="#" data-icon="search" class="active"></a>
+                <a href="account.html" data-icon="user"></a>
+            </nav>
+        </footer>
+        <article id="main-article" class="active list indented scroll">
+            <div class="form">
+                <fieldset data-icon="search">
+                    <input type="search" placeholder="Search...">
+                </fieldset>
+                <fieldset>
+                    <ul>
+                        <li class="light">
+                          <strong>Computer Science</strong>
+                        </li>
+                        <li data-image="img/logo-coursera-sombra.png" class="thumb">
+                            <a href="#">
+                                <strong>Título del curso 1</strong>
+                                <small>Descripción</small></a></li>
+                        <li data-image="img/logo-coursera-sombra.png" class="thumb">
+                            <a href="#">
+                                <strong>Título del curso 2</strong>
+                                <small>Descripción</small></a></li>
+                        <li data-image="img/logo-udacity-sombra.png" class="thumb">
+                            <a href="#">
+                                <strong>Título del curso 3</strong>
+                                <small>Descripción</small></a></li>
+                        <li data-image="img/logo-edx-sombra.png" class="thumb">
+                            <a href="#">
+                                <strong>Título del curso 4</strong>
+                                <small>Descripción</small></a></li>
+                        <li class="light">
+                          <strong>Statistics</strong>
+                        </li>
+                        <li data-image="img/logo-ie-sombra.png" class="thumb">
+                            <a href="#">
+                                <strong>Título del curso 5</strong>
+                                <small>Descripción</small></a></li>
+                        <li data-image="img/logo-udacity-sombra.png" class="thumb">
+                            <a href="#">
+                                <strong>Título del curso 6</strong>
+                                <small>Descripción 2</small></a></li>
+                      </ul>
+                  </fieldest>
+            </div>
+        </article>
+    </section>
+
+    <script type="text/javascript" src="js/loadCourses.js"></script>
+    <!-- Lungo - Sandbox App -->
+    <SCRIPT>
+        Lungo.init({
+            name: 'example'
+        });
+    </SCRIPT>
+</body>
+</html>

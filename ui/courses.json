@@ -1,0 +1,19 @@
+[
+{ "img": "/static/content-berkeley-cs169.2x~2013_Spring/images/course_image.jpg",
+  "status": "Course Started",
+  "date": "Feb 15, 2013",
+  "link": "/courses/BerkeleyX/CS169.2x/2013_Spring/info",
+  "provider": "edx",
+  "topic": "Computer Science",
+  "name": "CS169.2x Software as a Service" }
+
+
+,{ "img": "/static/content-mit-7012x~2013_Spring/images/course_image.jpg",
+  "status": "Course Started",
+  "date": "Mar 05, 2013",
+  "link": "/courses/MITx/7.00x/2013_Spring/info",
+  "provider": "edx",
+  "name": "7.00x Introduction to Biology - The Secret of Life" }
+
+
+  ]

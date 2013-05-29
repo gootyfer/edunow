@@ -11,9 +11,11 @@ phantom.create(function(ph) {
             page.includeJs('http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', function() {
                 //jQuery Loaded.
                 //Wait for a bit for AJAX content to load on the page. Here, we are waiting 5 seconds.
-                page.scrollPosition = { top: 100000, left: 0 };
+                //page.scrollPosition = { top: 100000, left: 0 };
                 setTimeout(function() {
                     return page.evaluate(function() {
+                        //TODO: iterate to the document height several times, until document.height stop
+                        $('body').scrollTop(document.height);
                         //console.log("hey:"+document.title);
                         //console.log($('body').html());
                         var service = "https://www.coursera.org";
